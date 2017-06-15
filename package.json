@@ -1,0 +1,17 @@
+{
+  "name": "flowtype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow check --show-all-errors --color always --profile src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.48.0"
+  }
+}
